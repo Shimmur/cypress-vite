@@ -10,7 +10,7 @@ const debug = Debug('cypress-vite')
 const watchers: Record<string, chokidar.FSWatcher> = {}
 
 /**
- * Cypress preprocessor for running e2e tests using vite.
+ * Cypress preprocessor for running e2e tests using vite
  *
  * @param {string} userConfigPath
  * @example
