@@ -1,5 +1,5 @@
 type FileObject = Cypress.FileObject;
-type CypressPreprocessor = (file: FileObject) => string | Promise<string>;
+type CypressPreprocessor = (file: FileObject) => Promise<string>;
 /**
  * Cypress preprocessor for running e2e tests using vite.
  *
